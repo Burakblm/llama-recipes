@@ -9,7 +9,7 @@ class train_config:
     model_name: str="PATH/to/LLAMA/7B"
     enable_fsdp: bool=False
     low_cpu_fsdp: bool=False
-    run_validation: bool=True
+    run_validation: bool=False
     batch_size_training: int=4
     batching_strategy: str="packing" #alternative: padding
     context_length: int=4096
